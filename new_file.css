@@ -1,0 +1,12 @@
+new file
+This is from commit 1:
+So what I did was delete exactly the <<<HEAD and ===== and the parent xxxxxx lines, then tick the box, put in a commit message;
+and committed the resolved conflicts, along with adding this new file (despite this being a revert);
+
+Chrysanthemum:
+I added the Chrysanthemum.jpg
+I changed the filename
+I was not able to immediately revert to the old filename via rolling back to the previous commit
+HOWEVER if I reverted back to the commit just before I added Chrysanthemum and THEN revert back to the name change commit - you get the original name back;
+WHEN YOU REVERT BACK TO A COMMIT, YOU REVERT TO THE STATUS OF THE FILES, JUST BEFORE THE COMMIT YOU REVERT TO (i.e. you actually end up with the files
+in the status they were before that commit was made)
