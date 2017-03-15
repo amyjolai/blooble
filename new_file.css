@@ -1,4 +1,0 @@
-new file
-This is from commit 1:
-So what I did was delete exactly the <<<HEAD and ===== and the parent xxxxxx lines, then tick the box, put in a commit message;
-and committed the resolved conflicts, along with adding this new file (despite this being a revert);
